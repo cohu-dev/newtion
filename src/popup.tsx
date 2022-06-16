@@ -6,6 +6,7 @@ const Popup = () => {
   const { dbId, apiSec, handleInput, onSubmit, reset } = usePopup();
   return (
     <form onSubmit={onSubmit}>
+      <h2>Newtion</h2>
       <label>Database ID</label>
       <input
         type="password"
@@ -22,7 +23,13 @@ const Popup = () => {
         onChange={handleInput}
         required
       />
-      <p>input is hidden for secure</p>
+      <h4>input is hidden for secure</h4>
+      <p>
+        <pre>Cmd/Ctrl + Shift + L</pre> to open setting popup
+      </p>
+      <p>
+        <pre>Cmd/Ctrl + Shift + I</pre> to open new page
+      </p>
       <button type="submit">Save</button>
       <button onClick={reset}>Reset</button>
       {/* check dbid & apisec are valid */}
