@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "Newtion",
+    "description": "You can use `New Page` shortcut in web browser ( like chrome, edge ). To use this, set database id and API Secret are neded.",
+    "homepage_url": "https://githb.com/cohu-dev/newtion",
+    "version": "0.1.0",
+    "commands": {
+        "newtion": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+I",
+                "mac": "Command+Shift+I"
+            },
+            "description": "create new page, then open with modal."
+        },
+        "_execute_action": {
+            "suggested_key": {
+                "windows": "Ctrl+Shift+L",
+                "mac": "Command+Shift+L",
+                "chromeos": "Ctrl+Shift+L",
+                "linux": "Ctrl+Shift+L"
+            }
+        }
+    },
+    "options_ui": {
+        "page": "options.html"
+    },
+    "action": {
+        "default_title": "Setting | Newtion",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/32.png",
+        "128": "icons/192.png"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*/*"
+    ]
+}
