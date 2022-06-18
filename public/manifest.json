@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Newtion",
-    "description": "You can use `New Page` shortcut in web browser ( like chrome, edge ). To use this, set database id and API Secret are neded.",
-    "homepage_url": "https://githb.com/cohu-dev/newtion",
+    "description": "You can use New Page shortcut of Notion in web browser.",
+    "homepage_url": "https://cohu-dev.github.io/newtion/",
     "version": "0.1.0",
     "commands": {
         "newtion": {

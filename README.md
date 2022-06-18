@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>Newtion</h1>
 	<p>
-		<b>make new-page shortcut in browser</b>
+		<b>make new-page shortcut of Notion in browser</b>
 	</p>
 	<br>
 </div>
@@ -9,6 +9,11 @@
 ![Newtion](https://user-images.githubusercontent.com/65804288/174427968-b8cf0e56-b765-4aa8-9039-a8f177166f86.png)
 
 [![build](https://github.com/cohu-dev/newtion/actions/workflows/build.yml/badge.svg)](https://github.com/cohu-dev/newtion/actions/workflows/build.yml)
+![issue count](https://img.shields.io/github/issues/cohu-dev/newtion)
+![forks count](https://img.shields.io/github/forks/cohu-dev/newtion)
+![stars count](https://img.shields.io/github/stars/cohu-dev/newtion)
+![license](https://img.shields.io/github/license/cohu-dev/newtion)
+![twitter share](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcohu-dev%2Fnewtion)
 
 Docs:[English](/README.md),[Japanese(日本語)](./README_ja.md)
 
@@ -106,3 +111,8 @@ Hi, I'm japanese university student.
 - Github
 - Blog(ja)
 - Zenn(ja)
+
+## Links
+
+- [Home page](https://cohu-dev.github.io/newtion/)
+- [Privacy Policy](https://cohu-dev.github.io/chrome-privacy-policy/)
