@@ -1,20 +1,24 @@
 <div align="center">
 	<h1>Newtion</h1>
 	<p>
-		<b>make new-page shortcut in borwser</b>
+		<b>make new-page shortcut in browser</b>
 	</p>
 	<br>
 </div>
 
+![Newtion](https://user-images.githubusercontent.com/65804288/174427968-b8cf0e56-b765-4aa8-9039-a8f177166f86.png)
+
 [![build](https://github.com/cohu-dev/newtion/actions/workflows/build.yml/badge.svg)](https://github.com/cohu-dev/newtion/actions/workflows/build.yml)
 
-![Newtion](https://user-images.githubusercontent.com/65804288/174083762-a1435841-70e4-43bb-9fdf-e4913f683218.png)
+Docs:[English](/README.md),[Japanese(日本語)](./docs/README_ja.md)
 
 This chrome extension makes it possible to use new-page shortcut for Notion in web browser.
 
 `Cmd/Ctrl + Shift + L` to create & open new page!
 
-日本語版の使い方の解説は[こちら](https://blog.cohu.dev/newtion)(Japanse Version document is here)
+## Install
+
+Access to [chrome web store]()
 
 ## Feature
 
@@ -24,20 +28,20 @@ This chrome extension makes it possible to use new-page shortcut for Notion in w
 - Free to use
 - use Safely
 
-## How To Use
+## How to set up
 
 Please follow these 3 steps below.
 
 ### 1. Prepare Notion Integrations from setting page
 
-- Access to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations)
+- Access to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations) and click `+ New Integration`
 - Input basic information
   - name
   - logo(optional)
   - Associated workspace
   - Capabilities
     - check Insert Content
-    - ckeck No user Information
+    - check No user Information
 - then, submit and copy `Internal Integration Token` (use later)
 
 ### 2. Prepare Notion Database
