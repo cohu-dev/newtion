@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>Newtion</h1>
 	<p>
-		<b>ブラウザで新規ページのNotionショートカットを</b>
+		<b>ブラウザで新規ページのNotionショートカットを作る</b>
 	</p>
 	<br>
 </div>
@@ -21,13 +21,15 @@
 
 `Cmd/Ctrl + Shift + L` を押して新規ページを作り、そして開こう！
 
+## デモ
+
+![デモ](demo.gif)
+
 ## インストール
 
-[chrome ウェブストア]()へアクセスしてください。
+[chrome ウェブストア](https://chrome.google.com/webstore/detail/newtion/fdjjmpjjbhhepdakdifipaehpcgojkgf?hl=ja&authuser=0)へアクセスしてください。
 
 ## 特徴
-
-<!-- GIF using sample -->
 
 - オープンソースソフトウェア
 - 無料で利用できる

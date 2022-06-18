@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>Newtion</h1>
 	<p>
-		<b>make new-page shortcut of Notion in browser</b>
+		<b>make New page shortcut of Notion in browser</b>
 	</p>
 	<br>
 </div>
@@ -21,17 +21,19 @@ This chrome extension makes it possible to use new-page shortcut for Notion in w
 
 `Cmd/Ctrl + Shift + L` to create & open new page!
 
+## Demo
+
+![Demo Gif](demo.gif)
+
 ## Install
 
-Access to [chrome web store]()
+Access to [chrome web store](https://chrome.google.com/webstore/detail/newtion/fdjjmpjjbhhepdakdifipaehpcgojkgf?hl=ja&authuser=0)
 
 ## Feature
 
-<!-- GIF using sample -->
-
 - Open Source Software
 - Free to use
-- use Safely
+- Use safely
 
 ## How to set up
 
