@@ -7,7 +7,6 @@ export const usePopup = () => {
     chrome.storage.local.get(["dbId", "apiSec"], (res) => {
       setDbId(res.dbId || "");
       setApiSec(res.apiSec || "");
-      console.log(res.dbId, res.apiSec);
     });
   }, []);
   const reset = () => {

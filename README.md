@@ -1,53 +1,72 @@
-# Newtion
+<div align="center">
+	<h1>Newtion</h1>
+	<p>
+		<b>make new-page shortcut in browser</b>
+	</p>
+	<br>
+</div>
+
+![Newtion](https://user-images.githubusercontent.com/65804288/174427968-b8cf0e56-b765-4aa8-9039-a8f177166f86.png)
+
+[![build](https://github.com/cohu-dev/newtion/actions/workflows/build.yml/badge.svg)](https://github.com/cohu-dev/newtion/actions/workflows/build.yml)
+
+Docs:[English](/README.md),[Japanese(日本語)](./docs/README_ja.md)
 
 This chrome extension makes it possible to use new-page shortcut for Notion in web browser.
 
 `Cmd/Ctrl + Shift + L` to create & open new page!
 
-日本語版はこちら(Japanse Version is here)
+## Install
+
+Access to [chrome web store]()
 
 ## Feature
 
-- Open Source
+<!-- GIF using sample -->
+
+- Open Source Software
 - Free to use
-- Safety
+- use Safely
 
-## How To Use
+## How to set up
 
-Please follow these steps below.
+Please follow these 3 steps below.
 
-### Prepare Notion Integrations from setting page
+### 1. Prepare Notion Integrations from setting page
 
-- Access to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations)
-- input basic information.
+- Access to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations) and click `+ New Integration`
+- Input basic information
   - name
   - logo(optional)
   - Associated workspace
   - Capabilities
     - check Insert Content
-    - ckeck No user Information
-- then, submit and copy `Internal Integration Token` (use later).
+    - check No user Information
+- then, submit and copy `Internal Integration Token` (use later)
 
-### Prepare Notion Database
+### 2. Prepare Notion Database
 
 - Access to [https://www.notion.so/](https://www.notion.so/)
 - Create new page with full screen database
-- delete Tags colomn (Optional)
-- Set leftmost colomn name to `Name`.
-  - This will be updated...
+- Delete `Tags` colomn (Optional)
+- Set leftmost colomn name to `Name` (default in English)
+  - This will be updated to customizable...
 - Get database id and copy (use later)
   - `https://www.notion.so/YOUR_DOMAIN/DATABASE_ID`
-  - `DATABASE_ID` is database id.
+  - `DATABASE_ID` is database id
 - Invite your Integrations
-  - Click share button header (in top of page)
-  - Then, Select an integration you created some time ago.
+  - Click share button in header
+  - Then, Select an integration you created some time ago
 
-### Set up Newtion
+### 3. Set up Newtion
 
-- Input `Cmd/Ctrl + Shift + L` to open setting popup.
-- Input Database ID and API Secret.
+- Input `Cmd/Ctrl + Shift + L` to open setting popup
+  - or click `Newtion` in list of chrome extensions
+- Input Database ID and API Secret (char is hidden)
 
-### Let's use Newtion Shortcut!
+### Let's use Newtion Shortcut
+
+Congratulations!
 
 Input `Cmd/Crtl + Shift + I` to create and open new page!
 
@@ -58,23 +77,32 @@ Input `Cmd/Crtl + Shift + I` to create and open new page!
 - Notion API v1
   - Docs:[https://developers.notion.com/reference/post-page](https://developers.notion.com/reference/post-page)
 
+### command
+
+```sh
+npm run watch
+npm run build
+npm run clean
+npm run test
+```
+
 ## Contribute
 
 in preparation...
-
-## Developer
-
-I'm japanese university student.
-
-### Related Links
-
-- Twitter(ja)
-- Github
-- Blog(ja)
-- Zenn(ja)
 
 ## Special Thanks
 
 This source code is derived from [https://github.com/chibat/chrome-extension-typescript-starter](https://github.com/chibat/chrome-extension-typescript-starter).
 
 Thanks.
+
+## Developer
+
+Hi, I'm japanese university student.
+
+### Related Links (will update)
+
+- Twitter(ja)
+- Github
+- Blog(ja)
+- Zenn(ja)
