@@ -10,7 +10,7 @@
 
 [![build](https://github.com/cohu-dev/newtion/actions/workflows/build.yml/badge.svg)](https://github.com/cohu-dev/newtion/actions/workflows/build.yml)
 
-Docs:[English](/README.md),[Japanese(日本語)](./docs/README_ja.md)
+Docs:[English](/README.md),[Japanese(日本語)](./README_ja.md)
 
 This chrome extension makes it possible to use new-page shortcut for Notion in web browser.
 

@@ -10,7 +10,7 @@
 
 [![build](https://github.com/cohu-dev/newtion/actions/workflows/build.yml/badge.svg)](https://github.com/cohu-dev/newtion/actions/workflows/build.yml)
 
-ドキュメント:[英語](/README.md),[日本語](./docs/README_ja.md)
+ドキュメント:[英語](./README.md),[日本語](./README_ja.md)
 
 この Chrome 拡張機能を使うと、Web ブラウザで新規ページを開くショートカットを使うことができます。
 
