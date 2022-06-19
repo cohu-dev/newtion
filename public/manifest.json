@@ -3,7 +3,7 @@
     "name": "Newtion",
     "description": "You can use New Page shortcut of Notion in web browser.",
     "homepage_url": "https://cohu-dev.github.io/newtion/",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "commands": {
         "newtion": {
             "suggested_key": {
