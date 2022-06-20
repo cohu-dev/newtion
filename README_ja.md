@@ -6,7 +6,7 @@
 	<br>
 </div>
 
-![Newtion](https://user-images.githubusercontent.com/65804288/174427968-b8cf0e56-b765-4aa8-9039-a8f177166f86.png)
+![Newtion](https://user-images.githubusercontent.com/65804288/174465241-f46d9b14-8bd1-495b-a566-62aedc2b36d0.png)
 
 [![build](https://github.com/cohu-dev/newtion/actions/workflows/build.yml/badge.svg)](https://github.com/cohu-dev/newtion/actions/workflows/build.yml)
 ![issue count](https://img.shields.io/github/issues/cohu-dev/newtion)
@@ -15,7 +15,7 @@
 ![license](https://img.shields.io/github/license/cohu-dev/newtion)
 ![twitter share](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fcohu-dev%2Fnewtion)
 
-ドキュメント:[英語](./README.md),[日本語](./README_ja.md)
+ドキュメント:[英語(English)](./README.md),[日本語](./README_ja.md)
 
 この Chrome 拡張機能を使うと、Web ブラウザで新規ページを開くショートカットを使うことができます。
 
@@ -23,21 +23,36 @@
 
 ## デモ
 
-![デモ](demo.gif)
-
-## インストール
-
-[chrome ウェブストア](https://chrome.google.com/webstore/detail/newtion/fdjjmpjjbhhepdakdifipaehpcgojkgf?hl=ja&authuser=0)へアクセスしてください。
+![demo](https://user-images.githubusercontent.com/65804288/174465615-3cc6c47f-d531-4a3f-8140-ff669beb913a.gif)
 
 ## 特徴
 
-- オープンソースソフトウェア
-- 無料で利用できる
-- 安全に利用できる
+### 安全に利用できる
 
-## 設定方法
+この Chrome 拡張機能は Notion の公式 API を必要としますが、必要な権限はデータの挿入だけで、ユーザー情報も不要です。
 
-以下の 3 ステップに従ってください。
+### オープンソースソフトウェア
+
+ソースコードは公開されており、MIT ライセンスです。
+
+## ショートカット
+
+| ショートカット     | 動作                             |
+| ------------------ | -------------------------------- |
+| `Cmd/Ctrl+Shift+L` | 設定のポップアップを開く         |
+| `Cmd/Ctrl+Shift+I` | 新規ページを作り新しいタブで開く |
+
+## インストール
+
+また、次のセクションで Newtion を設定する必要があります。
+
+[chrome ウェブストア](https://chrome.google.com/webstore/detail/newtion/fdjjmpjjbhhepdakdifipaehpcgojkgf?hl=ja&authuser=0)へアクセスしてください。
+
+GoogleChrome 以外のブラウザ拡張機能はお待ちください。
+
+## 使い方
+
+3 ステップの設定が必要です。以下の手順で設定してください。
 
 ### 1. 設定ページからインテグレーションを準備する
 
@@ -56,7 +71,7 @@
 - [https://www.notion.so/](https://www.notion.so/)にアクセス
 - 全画面データベースを作成する
 - `タグ`の列を削除する（任意）
-- 一番左の列を`Name` に変更する(英語設定では標準で`Name`)
+- **💡 一番左の列を`Name` に変更する(英語設定では標準で`Name`)**
   - 今後、修正が入ります
 - データベースの ID をコピーします（後で利用）
   - `https://www.notion.so/ドメイン/DATABASE_ID`
@@ -71,11 +86,19 @@
   - または`Newtion`のアイコンを拡張機能の一覧からクリック
 - データベース ID とトークンを入力します
 
-### さあ、Newtion を使おう！
+### さあ、Newtion を使おう
 
 おめでとうございます!
 
-`Cmd/Crtl + Shift + I`を入力し、新規ページを作り・開きましょう。
+`Cmd/Ctrl + Shift + I`を入力し、新規ページを作り・開きましょう。
+
+## 使用例
+
+次のようなケースを想定しています。
+
+- Web サイトを検索していて、その情報を Notion にまとめる
+- ブラウザ版 Notion で新しいページを開くためのショートカットが見つからず困っている
+- Notion で新しいページを開くと、サイドバーのページ数が増えてしまう
 
 ## 開発環境
 
@@ -106,13 +129,6 @@ npm run test
 ## 開発者
 
 日本人の大学生です。
-
-### 関連リンク（更新予定）
-
-- Twitter(ja)
-- Github
-- Blog(ja)
-- Zenn(ja)
 
 ## リンク
 
