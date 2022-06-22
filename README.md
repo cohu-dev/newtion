@@ -33,6 +33,8 @@ The source code is publicly available and MIT license.
 
 This Chrome extension requires Notion's official API, but the only permissions required are to insert data and no user information is required.
 
+This chrome extension requires only `storage` permisson to save Notion API Token. You can use so safely because other permissions are not accessed.
+
 ## Shortcuts
 
 | Shortcut           | Action                        |

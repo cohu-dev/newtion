@@ -37,8 +37,7 @@
         "service_worker": "js/background.js"
     },
     "permissions": [
-        "storage",
-        "tabs"
+        "storage"
     ],
     "host_permissions": [
         "https://*/*"
