@@ -1,5 +1,5 @@
 #!/bin/bash
-for size in 16 48 128
+for size in 16 24 32 48 128
 	do
     mkdir ./public/icons
     input_path=./src/assets/icon.png

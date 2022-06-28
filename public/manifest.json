@@ -21,12 +21,14 @@
             }
         }
     },
-    "options_ui": {
-        "page": "options.html"
-    },
     "action": {
-        "default_title": "Setting | Newtion",
-        "default_popup": "popup.html"
+        "default_icon": {
+            "16": "icons/16.png",
+            "24": "icons/24.png",
+            "32": "icons/32.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Newtion"
     },
     "icons": {
         "16": "icons/16.png",
@@ -37,8 +39,7 @@
         "service_worker": "js/background.js"
     },
     "permissions": [
-        "storage",
-        "tabs"
+        "storage"
     ],
     "host_permissions": [
         "https://*/*"
